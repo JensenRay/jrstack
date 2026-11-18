@@ -1,0 +1,17 @@
+{
+  "name": "jrstack",
+  "version": "1.0.0",
+  "description": "Codex workflows for engineering investigation, design, implementation, verification, and PR review.",
+  "license": "MIT",
+  "skills": "./plugins/jrstack/skills/",
+  "interface": {
+    "displayName": "jrstack",
+    "shortDescription": "Investigate bugs, review changes, and verify fixes",
+    "category": "Developer Tools",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "defaultPrompt": [
+      "Use $jrstack:poteto-mode to investigate this issue and verify the fix.",
+      "Use $jrstack:interrogate to review these changes independently."
+    ]
+  }
+}
